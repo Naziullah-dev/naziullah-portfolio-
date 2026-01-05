@@ -6,20 +6,44 @@
     list-style-type: none;
 }
 
+.btn{
+    background-color: #00C6AE;
+    color: #D9F6F3;
+    font-weight: 700;
+    font-size: 20px;
+    padding:18px 30px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: none;
+}
+
 header{
     font-family: "Open Sans", sans-serif;
     background-color: #D9F6F3;
+    background: url(../images/developer_new.png), url(../images/header_bg_new.png), #D9F6F3;
+    background-position: 5% bottom, 110% 500%;
+    background-repeat: no-repeat;
 }
 
 nav{
     display: flex;
-    width: 70%;
+    width: 80%;
+    height: 100px;
     max-width: 1140px;
     margin: 0 auto;
     text-transform: capitalize;
     align-items: center;
     justify-content:space-between;
 }
+
+.logo{
+    font-weight: 700;
+    font-size: 45px;
+}
+.logo span{
+    color: #00C6AE;
+}
+
 .menu{
     display: flex;
     font-weight: 400;
@@ -33,21 +57,56 @@ nav{
 }
 
 
-.logo{
-    font-weight: 700;
-    font-size: 45px;
-}
-.logo span{
-    color: #00C6AE;
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1321px;
+    /* border: 2px solid red; */
+    margin: 0px 38px 0 190px;
 }
 
-.btn{
-    background-color: #00C6AE;
-    color: #D9F6F3;
+.banner-content{
+    width: 690px;
+}
+
+.banner-content h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    text-transform: capitalize;
+}
+
+.banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.banner-content .btn-contact{
+    background-color: transparent;
+    color: #00C6AE;
     font-weight: 700;
     font-size: 20px;
-    padding:10px 20px;
+    padding:18px 30px;
     text-transform: capitalize;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #00C6AE;
+    margin-left: 30px;
+}
+
+#banner .banner-img img{
+    max-width: 580px;
+    vertical-align: middle;
+
 }
