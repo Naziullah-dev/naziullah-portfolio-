@@ -6,6 +6,9 @@
     list-style-type: none;
 }
 
+body{
+    background-color: #E6F9F7;
+}
 .btn{
     background-color: #00C6AE;
     color: #D9F6F3;
@@ -19,9 +22,8 @@
 
 header{
     font-family: "Open Sans", sans-serif;
-    background-color: #D9F6F3;
     background: url(../images/developer_new.png), url(../images/header_bg_new.png), #D9F6F3;
-    background-position: 5% bottom, 110% 500%;
+    background-position: 5% 105%, 110% 200%;
     background-repeat: no-repeat;
 }
 
@@ -61,9 +63,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1321px;
+    /* width: 1321px; */
+    width: 85%;
     /* border: 2px solid red; */
-    margin: 0px 38px 0 190px;
+    margin: 30px 38px 0 190px;
 }
 
 .banner-content{
@@ -109,4 +112,97 @@ nav{
     max-width: 580px;
     vertical-align: middle;
 
+}
+
+#about{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about-container{
+    width: 1140px;
+    background-color:#D9F6F3;
+    margin: 0 auto;
+    padding-top: 130px;
+    border-radius: 8px;
+}
+
+.about-heading{
+    text-align: center;
+    padding: 0 140px 0 140px ;
+}
+.about-heading h2{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-heading p{
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.about-info{
+    margin-top: 30px;
+    line-height: 30px;
+    padding: 0 140px 131px 140px ;
+    display: flex;
+    justify-content:space-between;
+}
+
+.about-info h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-info p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #474747;
+}
+
+#skill{
+    font-family: "Open Sans", sans-serif;
+    margin-top: 100px;
+}
+
+.skill-container{
+    width: 1140px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.skill-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.skill-card-info{
+    width: 250px;
+    padding: 30px 30px;
+    background-color: #E6F9F7;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #00000024;
+    transition: 0.5s;
+}
+
+.skill-card-info:hover{
+    background-color: #D9F6F3;
+    width: 260px;
+}
+
+.skill-card-content h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.skill-card-content p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #757575;
 }
