@@ -30,7 +30,7 @@ header{
 
 nav{
     display: flex;
-    width: 80%;
+    width: 1140px;
     height: 100px;
     max-width: 1140px;
     margin: 0 auto;
@@ -243,6 +243,7 @@ nav{
 }
 
 .edu-exp-card{
+    width: 100%;
     position: relative;
 }
 
@@ -272,7 +273,7 @@ nav{
     color: #757575;
     padding-top: 20px;
     padding-bottom: 30px;
-    width: 511px;
+    /* width: 511px; */
 } 
 
 #resume .download-cv{
@@ -319,4 +320,214 @@ form input{
     border-radius: 5px;
     width: 100%;
     border: none;
+}
+
+
+
+/* responsive start */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .about-container{
+        width: 90%;
+        padding-top: 65px;
+    }
+
+
+
+    nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    }
+    nav .logo{
+        margin: 0 auto;
+    }
+
+    .menu{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+    gap: 24px;
+    }
+
+
+    header{
+    font-family: "Open Sans", sans-serif;
+    background: url(../images/header_bg_new.png), #D9F6F3;
+    background-position: 50% 240%;
+    background-repeat: no-repeat;
+    }
+
+
+    #banner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .banner-content h3{
+        font-size: 30px;
+    }
+
+    .banner-content h1{
+        font-size: 35px;
+    }
+
+    .banner-content p{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .banner-content .btn-contact{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    #banner .banner-img img{
+        width: 100%;
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .about-heading{
+    text-align: center;
+    padding: 0 20px ;
+    }
+
+    .about-info{
+    margin-top: 0;
+    padding: 50px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    }
+
+
+    #skill{
+    margin-top: 65px;
+    }
+    .skill-container{
+    width: 90%;
+    }
+
+    .skill-card{
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    }
+
+
+    #resume{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 65px;   
+    }
+
+    .resume-heading{
+        font-size: 30px;
+        padding-bottom: 55px;
+    }
+
+    .resume-content{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .resume-content .edu-exp{
+    width:90%;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    }
+
+    .resume-content .edu-exp h4{
+    font-size: 20px;
+    text-align: center;
+    }
+
+    .edu-exp-card h5{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+    } 
+    .edu-exp-card h6{
+        font-size: 14px;
+        font-weight: 600;
+        color: #757575;
+        padding-top: 10px;
+    } 
+    .edu-exp-card p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #757575;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        /* width: 511px; */
+    } 
+
+    #resume .download-cv{
+    padding-top: 0;
+    text-align: center;
+    }
+
+    #footer{
+        background-color: #D9F6F3;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .footer-content{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+
+    .footer-content .connection{
+    width: 100%;
+    }
+    .footer-content .connection h3{
+    padding-bottom: 15px;
+    }
+    .footer-content .connection p{
+    width: 100%;
+    }
+
+    .footer-content .contact-form{
+    width: 100%;
+    }
+    .footer-content .contact-form h3{
+    padding-bottom: 15px;
+    }
 }
